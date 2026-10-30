@@ -1,0 +1,211 @@
+{
+  "source": "https://huggingface.co/datasets/anonymous-dataset/InSpect/tree/main",
+  "matching": "image_name matched exactly in both ZIPs and CSV; catalog_number shown as specimen ID",
+  "display": "Resized WebP photographs; no upscaling. Metadata preserved as released.",
+  "specimens": [
+    {
+      "catalog_number": "32-065827",
+      "metadata_source": "specimen_benchmark_metadata.csv",
+      "files": [
+        {
+          "archive": "original_images.zip",
+          "image_name": "32-065827.jpg",
+          "source_sha256": "34a14b73de45490ab6f7fae6c044d7d2c74c201783f033bdcae0a9ea276a3a7c",
+          "source_dimensions": [
+            5616,
+            3744
+          ],
+          "display_dimensions": [
+            2800,
+            1867
+          ],
+          "display_file": "32-065827-original.webp"
+        },
+        {
+          "archive": "final_benchmark_data_crops.zip",
+          "image_name": "32-065827.jpg",
+          "source_sha256": "57b62e79bcc194ffe20f1f03aad82a52ccfe506314a7456a70fb93540f2887c3",
+          "source_dimensions": [
+            980,
+            825
+          ],
+          "display_dimensions": [
+            980,
+            825
+          ],
+          "display_file": "32-065827-crop.webp"
+        }
+      ]
+    },
+    {
+      "catalog_number": "14-017539",
+      "metadata_source": "specimen_benchmark_metadata.csv",
+      "files": [
+        {
+          "archive": "original_images.zip",
+          "image_name": "14-017539.jpg",
+          "source_sha256": "885fc2e5538489730cae6ebfaf669f29b8b1c8eef873ddaeb85c1e73d87aa8aa",
+          "source_dimensions": [
+            6720,
+            4480
+          ],
+          "display_dimensions": [
+            2800,
+            1867
+          ],
+          "display_file": "14-017539-original.webp"
+        },
+        {
+          "archive": "final_benchmark_data_crops.zip",
+          "image_name": "14-017539.jpg",
+          "source_sha256": "5648a2c110ee69d70e13fd1bf9bde0ec49f6f802f58671b76b3331514bc3d346",
+          "source_dimensions": [
+            2186,
+            3237
+          ],
+          "display_dimensions": [
+            675,
+            1000
+          ],
+          "display_file": "14-017539-crop.webp"
+        }
+      ]
+    },
+    {
+      "catalog_number": "29-045491",
+      "metadata_source": "specimen_benchmark_metadata.csv",
+      "files": [
+        {
+          "archive": "original_images.zip",
+          "image_name": "29-045491.jpg",
+          "source_sha256": "7976fc37d7d71b17c51410b9db95f131dc75565e7e59a8b4f7e901784e172a58",
+          "source_dimensions": [
+            6720,
+            4480
+          ],
+          "display_dimensions": [
+            2800,
+            1867
+          ],
+          "display_file": "29-045491-original.webp"
+        },
+        {
+          "archive": "final_benchmark_data_crops.zip",
+          "image_name": "29-045491.jpg",
+          "source_sha256": "ccb3218cbed4682f24ac2e8f07c5f6a6f9aee161e177f2beed1dbbe2ab2a1813",
+          "source_dimensions": [
+            1938,
+            2616
+          ],
+          "display_dimensions": [
+            741,
+            1000
+          ],
+          "display_file": "29-045491-crop.webp"
+        }
+      ]
+    },
+    {
+      "catalog_number": "09-001023",
+      "metadata_source": "specimen_benchmark_metadata.csv",
+      "files": [
+        {
+          "archive": "original_images.zip",
+          "image_name": "09-001023.jpg",
+          "source_sha256": "3573d0ae05454afe460fa0026f6a453cea1acf594bf182b105e543c97684d5a7",
+          "source_dimensions": [
+            6720,
+            4480
+          ],
+          "display_dimensions": [
+            2800,
+            1867
+          ],
+          "display_file": "09-001023-original.webp"
+        },
+        {
+          "archive": "final_benchmark_data_crops.zip",
+          "image_name": "09-001023.jpg",
+          "source_sha256": "c7f74cac3e814ac3baaca11fcf80f55a4f6d6e782d84567ba6222e0f22e14842",
+          "source_dimensions": [
+            1392,
+            2453
+          ],
+          "display_dimensions": [
+            567,
+            1000
+          ],
+          "display_file": "09-001023-crop.webp"
+        }
+      ]
+    },
+    {
+      "catalog_number": "31-071204",
+      "metadata_source": "specimen_benchmark_metadata.csv",
+      "files": [
+        {
+          "archive": "original_images.zip",
+          "image_name": "31-071204.jpg",
+          "source_sha256": "b108bd922b060b15eeea6037aed85b9d43e1946a5684e13598885a2ce6c42f5a",
+          "source_dimensions": [
+            1401,
+            812
+          ],
+          "display_dimensions": [
+            1401,
+            812
+          ],
+          "display_file": "31-071204-original.webp"
+        },
+        {
+          "archive": "final_benchmark_data_crops.zip",
+          "image_name": "31-071204.jpg",
+          "source_sha256": "7677c38616fd2ba9493c30ffa4c7791ff2d3c31ea51e59c7b38d744b72af73ba",
+          "source_dimensions": [
+            337,
+            299
+          ],
+          "display_dimensions": [
+            337,
+            299
+          ],
+          "display_file": "31-071204-crop.webp"
+        }
+      ]
+    },
+    {
+      "catalog_number": "32-072054",
+      "metadata_source": "specimen_benchmark_metadata.csv",
+      "files": [
+        {
+          "archive": "original_images.zip",
+          "image_name": "32-072054.jpg",
+          "source_sha256": "c559605a3f34c12291cf99f01a828e76710b113bb09a03ff3bef42fd5ba9aaa9",
+          "source_dimensions": [
+            5616,
+            3744
+          ],
+          "display_dimensions": [
+            2800,
+            1867
+          ],
+          "display_file": "32-072054-original.webp"
+        },
+        {
+          "archive": "final_benchmark_data_crops.zip",
+          "image_name": "32-072054.jpg",
+          "source_sha256": "f2b97a169aa8105969e9937fe27293f8e226cd380ed99a77cd5570b9d9f5ed5e",
+          "source_dimensions": [
+            1003,
+            972
+          ],
+          "display_dimensions": [
+            1000,
+            969
+          ],
+          "display_file": "32-072054-crop.webp"
+        }
+      ]
+    }
+  ]
+}

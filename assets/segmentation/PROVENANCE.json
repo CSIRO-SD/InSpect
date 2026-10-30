@@ -1,0 +1,391 @@
+{
+  "source": "https://huggingface.co/datasets/anonymous-dataset/InSpect/tree/main",
+  "annotation_archive": "segmentation_annotations.zip",
+  "image_archive": "segmentation_images.zip",
+  "checked": "2026-10-30",
+  "notes": "Original JPEGs copied without modification. SVG overlays are generated directly from COCO segmentation polygons; no predicted or synthetic masks. Colors are display choices. Coarse and spatial split membership differs.",
+  "samples": [
+    {
+      "file": "32-065827.jpg",
+      "scientific_name": "Braunsapis protuberans",
+      "order": "Hymenoptera",
+      "coarse": {
+        "source_file": "annotations/singular_sam3_test.json",
+        "image_id": 320,
+        "width": 980,
+        "height": 825,
+        "labels": [
+          "abdomen",
+          "cercus",
+          "head",
+          "leg",
+          "thorax",
+          "tongue",
+          "wing"
+        ],
+        "colors": {
+          "abdomen": "#d7b938",
+          "cercus": "#9b6b3d",
+          "head": "#3978d4",
+          "leg": "#3eaa56",
+          "thorax": "#ef9fbc",
+          "tongue": "#bb407f",
+          "wing": "#9663ca"
+        },
+        "instances": 14
+      },
+      "spatial": {
+        "source_file": "annotations/sam3_train 1.json",
+        "image_id": 801,
+        "width": 980,
+        "height": 825,
+        "labels": [
+          "abdomen",
+          "head",
+          "left_cercus",
+          "left_forewing",
+          "left_hindleg",
+          "left_hindwing",
+          "left_middleleg",
+          "right_foreleg",
+          "right_forewing",
+          "right_hindleg",
+          "right_middleleg",
+          "thorax",
+          "tongue"
+        ],
+        "colors": {
+          "abdomen": "#15a8ae",
+          "head": "#3159a6",
+          "left_cercus": "#ba7744",
+          "left_forewing": "#99c83a",
+          "left_hindleg": "#28b66a",
+          "left_hindwing": "#1e8c70",
+          "left_middleleg": "#328bb7",
+          "right_foreleg": "#ca3c6e",
+          "right_forewing": "#d76b39",
+          "right_hindleg": "#a7772c",
+          "right_middleleg": "#276b7e",
+          "thorax": "#ec95bb",
+          "tongue": "#b6528c"
+        },
+        "instances": 14
+      }
+    },
+    {
+      "file": "14-017539.jpg",
+      "scientific_name": "Macrotona sp. 11",
+      "order": "Orthoptera",
+      "coarse": {
+        "source_file": "annotations/singular_sam3_test.json",
+        "image_id": 124,
+        "width": 2186,
+        "height": 3237,
+        "labels": [
+          "abdomen",
+          "antenna",
+          "head",
+          "leg",
+          "thorax",
+          "wing"
+        ],
+        "colors": {
+          "abdomen": "#d7b938",
+          "antenna": "#df4948",
+          "head": "#3978d4",
+          "leg": "#3eaa56",
+          "thorax": "#ef9fbc",
+          "wing": "#9663ca"
+        },
+        "instances": 13
+      },
+      "spatial": {
+        "source_file": "annotations/sam3_train 1.json",
+        "image_id": 310,
+        "width": 2186,
+        "height": 3237,
+        "labels": [
+          "abdomen",
+          "head",
+          "left_antenna",
+          "left_foreleg",
+          "left_forewing",
+          "left_hindleg",
+          "left_hindwing",
+          "right_antenna",
+          "right_foreleg",
+          "right_hindleg",
+          "right_middleleg",
+          "thorax"
+        ],
+        "colors": {
+          "abdomen": "#15a8ae",
+          "head": "#3159a6",
+          "left_antenna": "#f0a32f",
+          "left_foreleg": "#e1bd31",
+          "left_forewing": "#99c83a",
+          "left_hindleg": "#28b66a",
+          "left_hindwing": "#1e8c70",
+          "right_antenna": "#bf46ba",
+          "right_foreleg": "#ca3c6e",
+          "right_hindleg": "#a7772c",
+          "right_middleleg": "#276b7e",
+          "thorax": "#ec95bb"
+        },
+        "instances": 13
+      }
+    },
+    {
+      "file": "29-045491.jpg",
+      "scientific_name": "Copidapha maculiventris",
+      "order": "Diptera",
+      "coarse": {
+        "source_file": "annotations/singular_sam3_test.json",
+        "image_id": 221,
+        "width": 1938,
+        "height": 2616,
+        "labels": [
+          "abdomen",
+          "cercus",
+          "head",
+          "leg",
+          "thorax",
+          "tongue",
+          "wing"
+        ],
+        "colors": {
+          "abdomen": "#d7b938",
+          "cercus": "#9b6b3d",
+          "head": "#3978d4",
+          "leg": "#3eaa56",
+          "thorax": "#ef9fbc",
+          "tongue": "#bb407f",
+          "wing": "#9663ca"
+        },
+        "instances": 12
+      },
+      "spatial": {
+        "source_file": "annotations/sam3_train 1.json",
+        "image_id": 552,
+        "width": 1938,
+        "height": 2616,
+        "labels": [
+          "abdomen",
+          "head",
+          "left_cercus",
+          "left_foreleg",
+          "left_forewing",
+          "leg",
+          "right_cercus",
+          "right_foreleg",
+          "right_forewing",
+          "right_hindleg",
+          "thorax",
+          "tongue"
+        ],
+        "colors": {
+          "abdomen": "#15a8ae",
+          "head": "#3159a6",
+          "left_cercus": "#ba7744",
+          "left_foreleg": "#e1bd31",
+          "left_forewing": "#99c83a",
+          "leg": "#8171de",
+          "right_cercus": "#e96291",
+          "right_foreleg": "#ca3c6e",
+          "right_forewing": "#d76b39",
+          "right_hindleg": "#a7772c",
+          "thorax": "#ec95bb",
+          "tongue": "#b6528c"
+        },
+        "instances": 12
+      }
+    },
+    {
+      "file": "09-001023.jpg",
+      "scientific_name": "Scabina antipoda",
+      "order": "Blattodea",
+      "coarse": {
+        "source_file": "annotations/singular_sam3_test.json",
+        "image_id": 2,
+        "width": 1392,
+        "height": 2453,
+        "labels": [
+          "abdomen",
+          "antenna",
+          "cercus",
+          "head",
+          "leg",
+          "sting",
+          "thorax"
+        ],
+        "colors": {
+          "abdomen": "#d7b938",
+          "antenna": "#df4948",
+          "cercus": "#9b6b3d",
+          "head": "#3978d4",
+          "leg": "#3eaa56",
+          "sting": "#ed8c28",
+          "thorax": "#ef9fbc"
+        },
+        "instances": 13
+      },
+      "spatial": {
+        "source_file": "annotations/sam3_train 1.json",
+        "image_id": 7,
+        "width": 1392,
+        "height": 2453,
+        "labels": [
+          "abdomen",
+          "head",
+          "left_antenna",
+          "left_cercus",
+          "left_hindleg",
+          "left_sting",
+          "right_antenna",
+          "right_cercus",
+          "right_hindleg",
+          "right_middleleg",
+          "right_sting",
+          "thorax"
+        ],
+        "colors": {
+          "abdomen": "#15a8ae",
+          "head": "#3159a6",
+          "left_antenna": "#f0a32f",
+          "left_cercus": "#ba7744",
+          "left_hindleg": "#28b66a",
+          "left_sting": "#4965c3",
+          "right_antenna": "#bf46ba",
+          "right_cercus": "#e96291",
+          "right_hindleg": "#a7772c",
+          "right_middleleg": "#276b7e",
+          "right_sting": "#4a85dc",
+          "thorax": "#ec95bb"
+        },
+        "instances": 13
+      }
+    },
+    {
+      "file": "31-071204.jpg",
+      "scientific_name": "Exelastis phlyctaenias",
+      "order": "Lepidoptera",
+      "coarse": {
+        "source_file": "annotations/singular_sam3_test.json",
+        "image_id": 309,
+        "width": 337,
+        "height": 299,
+        "labels": [
+          "abdomen",
+          "head",
+          "leg",
+          "thorax",
+          "wing"
+        ],
+        "colors": {
+          "abdomen": "#d7b938",
+          "head": "#3978d4",
+          "leg": "#3eaa56",
+          "thorax": "#ef9fbc",
+          "wing": "#9663ca"
+        },
+        "instances": 8
+      },
+      "spatial": {
+        "source_file": "annotations/sam3_train 1.json",
+        "image_id": 769,
+        "width": 337,
+        "height": 299,
+        "labels": [
+          "abdomen",
+          "head",
+          "left_forewing",
+          "left_hindleg",
+          "right_forewing",
+          "right_hindleg",
+          "thorax"
+        ],
+        "colors": {
+          "abdomen": "#15a8ae",
+          "head": "#3159a6",
+          "left_forewing": "#99c83a",
+          "left_hindleg": "#28b66a",
+          "right_forewing": "#d76b39",
+          "right_hindleg": "#a7772c",
+          "thorax": "#ec95bb"
+        },
+        "instances": 8
+      }
+    },
+    {
+      "file": "32-072054.jpg",
+      "scientific_name": "Megachile (Eutricharaea) macularis",
+      "order": "Hymenoptera",
+      "coarse": {
+        "source_file": "annotations/singular_sam3_test.json",
+        "image_id": 336,
+        "width": 1003,
+        "height": 972,
+        "labels": [
+          "abdomen",
+          "antenna",
+          "head",
+          "leg",
+          "sting",
+          "thorax",
+          "tongue",
+          "wing"
+        ],
+        "colors": {
+          "abdomen": "#d7b938",
+          "antenna": "#df4948",
+          "head": "#3978d4",
+          "leg": "#3eaa56",
+          "sting": "#ed8c28",
+          "thorax": "#ef9fbc",
+          "tongue": "#bb407f",
+          "wing": "#9663ca"
+        },
+        "instances": 14
+      },
+      "spatial": {
+        "source_file": "annotations/sam3_train 1.json",
+        "image_id": 834,
+        "width": 1003,
+        "height": 972,
+        "labels": [
+          "abdomen",
+          "head",
+          "left_antenna",
+          "left_foreleg",
+          "left_forewing",
+          "left_hindleg",
+          "left_hindwing",
+          "right_antenna",
+          "right_foreleg",
+          "right_hindleg",
+          "right_wing",
+          "sting",
+          "thorax",
+          "tongue"
+        ],
+        "colors": {
+          "abdomen": "#15a8ae",
+          "head": "#3159a6",
+          "left_antenna": "#f0a32f",
+          "left_foreleg": "#e1bd31",
+          "left_forewing": "#99c83a",
+          "left_hindleg": "#28b66a",
+          "left_hindwing": "#1e8c70",
+          "right_antenna": "#bf46ba",
+          "right_foreleg": "#ca3c6e",
+          "right_hindleg": "#a7772c",
+          "right_wing": "#795299",
+          "sting": "#db5c37",
+          "thorax": "#ec95bb",
+          "tongue": "#b6528c"
+        },
+        "instances": 14
+      }
+    }
+  ]
+}

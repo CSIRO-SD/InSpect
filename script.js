@@ -3,7 +3,7 @@
   const base = document.body.dataset.base || '';
   // Keep links to the previous single-page version usable.
   if (!base && /(?:\/|\/index\.html)$/.test(location.pathname)) {
-    const routes = {overview:'introduction.html',dataset:'dataset.html',benchmarks:'benchmarks.html',gallery:'dataset.html',resources:'dataset.html#resources',citation:'dataset.html#citation'};
+    const routes = {overview:'introduction.html',dataset:'dataset.html',benchmarks:'dataset.html#annotations-examples',gallery:'dataset.html',resources:'dataset.html#resources',citation:'dataset.html#citation'};
     const route = routes[location.hash.slice(1)];
     if (route) { location.replace('docs/en/' + route); return; }
   }
@@ -30,6 +30,7 @@
     const slot = document.querySelector(`[data-resource-link="${key}"]`);
     if (!slot) return;
     const link = document.createElement('a'); link.href = url.href;
+    if (key === 'dataset') link.dataset.downloadTrack = 'dataset-link-click';
     link.textContent = key === 'dataset' ? '[Download dataset]' : '[Code]'; slot.replaceWith(link);
   });
   const tocHeadings = [...document.querySelectorAll('.dataset-page article h2[id], .dataset-page article h3[id]')];

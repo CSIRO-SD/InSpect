@@ -63,3 +63,9 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #fc4d
 .dataset-page .inspect-toc .toc a{font-size:14px;line-height:1.4}
 .dataset-page .inspect-toc .toc--ellipsis>li{white-space:normal;overflow:visible}
 }
+
+/* Keep all navigation entries visible on narrow screens. */
+@media(max-width:767px){.header>.main{flex-direction:column;align-items:stretch}.header__title{height:3rem;margin-right:0}.header__title>.search-button{display:flex}.navigation>ul{height:auto;flex-wrap:wrap;padding-bottom:8px}.navigation>ul .search-button{display:none}.navigation__item a{white-space:nowrap}.navigation>ul>li{margin-right:1rem}}
+
+/* Release tables keep long archive names readable on narrow displays. */
+.release-files table{min-width:620px}.release-files td:first-child{min-width:215px;max-width:280px}.release-files code{white-space:normal;overflow-wrap:anywhere}.release-files td:nth-child(2){white-space:nowrap}.release-details{margin:1.5rem 0;padding:1rem;border:1px solid #e5e5e5}.release-details summary{cursor:pointer;font-weight:600}.release-details[open] summary{margin-bottom:1rem}
