@@ -31,7 +31,7 @@
     if (!slot) return;
     const link = document.createElement('a'); link.href = url.href;
     if (key === 'dataset') link.dataset.downloadTrack = 'dataset-link-click';
-    link.textContent = key === 'dataset' ? '[Download dataset]' : '[Code]'; slot.replaceWith(link);
+    link.textContent = key === 'dataset' ? '[Download]' : '[Code]'; slot.replaceWith(link);
   });
   const tocHeadings = [...document.querySelectorAll('.dataset-page article h2[id], .dataset-page article h3[id]')];
   if (tocHeadings.length) {
