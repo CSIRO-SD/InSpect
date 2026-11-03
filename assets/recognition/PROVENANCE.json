@@ -1,5 +1,5 @@
 {
-  "source": "https://huggingface.co/datasets/anonymous-dataset/InSpect/tree/main",
+  "source": "https://huggingface.co/datasets/junhao-zhang/InSpect/tree/main",
   "matching": "image_name matched exactly in both ZIPs and CSV; catalog_number shown as specimen ID",
   "display": "Resized WebP photographs; no upscaling. Metadata preserved as released.",
   "specimens": [
