@@ -1,5 +1,5 @@
 {
-  "source": "https://huggingface.co/datasets/anonymous-dataset/InSpect/tree/main",
+  "source": "https://huggingface.co/datasets/junhao-zhang/InSpect/tree/main",
   "annotation_archive": "segmentation_annotations.zip",
   "image_archive": "segmentation_images.zip",
   "checked": "2026-10-30",
